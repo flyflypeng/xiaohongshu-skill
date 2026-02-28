@@ -11,6 +11,8 @@ metadata: {"openclaw": {"emoji": "📕", "requires": {"bins": ["python3", "playw
 
 ## 前置条件
 
+> 提示：如果在`{baseDir}`目录下有`.venv/`目录，那么请先执行`source .venv/bin/activate`命令来激活虚拟环境。
+
 在 `{baseDir}` 目录下安装依赖：
 
 ```bash
@@ -29,6 +31,8 @@ playwright install-deps chromium
 所有命令从 `{baseDir}` 目录运行。
 
 ### 1. 登录（首次必须）
+
+> 提示：如果已经提前离线登录了小红书，并且保存了cookie，那么可以跳过这一步。
 
 ```bash
 cd {baseDir}
